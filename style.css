@@ -23,22 +23,30 @@ header, main div {
     display: flex;
 }
 
+main div {
+    justify-content: space-between;
+}
+
 header {
     width: 100%;
     align-items: baseline;
     justify-content: space-evenly;
 }
 
-main div {
+#logo {
+    flex-direction: column;
+}
+
+#logo div {
+    width: 100%;
     justify-content: space-between;
 }
 
-#temp {
-    font-size: 10vh;
+#logo {
+    height: 80vh;
+    border: 1px dashed black;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
-#logo {
-    width: 20%;
-    padding-bottom: 15%;
-    border: 1px dashed black;
-}
