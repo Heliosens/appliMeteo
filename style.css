@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, main div {
+    display: flex;
+}
+
+header {
+    width: 100%;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+main div {
+    justify-content: space-between;
+}
+
+#temp {
+    font-size: 10vh;
+}
+
+#logo {
+    width: 20%;
+    padding-bottom: 15%;
+    border: 1px dashed black;
+}
